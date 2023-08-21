@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Unit;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
@@ -9,7 +9,7 @@ use AmnaJahanzaib\RemoteUserService\DTOs\UserDTO;
 use AmnaJahanzaib\RemoteUserService\RemoteUserService;
 use Mockery;
 
-class RemoteUserServiceUnit extends TestCase
+class RemoteUserServiceUnitTest extends TestCase
 {
     private $userService;
 

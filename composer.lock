@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07d862a85f879b50e2088c22eb70b9d0",
+    "content-hash": "d6b3bb9cb9253192d040f3a991737e29",
     "packages": [
         {
             "name": "amna-jahanzaib/remote-user-service",
@@ -59,64 +59,6 @@
             "keywords": [
                 "Laravel",
                 "RemoteUserService"
-            ],
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
-        },
-        {
-            "name": "amna-jahanzaib/users-management",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "D:/xampp/htdocs/Technical-Test-2023/packages/amna-jahanzaib/users-management",
-                "reference": "86ad71cebacb2ab99c588746ab497cc4290856ab"
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^7.0",
-                "illuminate/support": "~9.0"
-            },
-            "require-dev": {
-                "orchestra/testbench": "~7",
-                "phpunit/phpunit": "~9.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "AmnaJahanzaib\\UsersManagement\\UsersManagementServiceProvider"
-                    ],
-                    "aliases": {
-                        "UsersManagement": "AmnaJahanzaib\\UsersManagement\\Facades\\UsersManagement"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "AmnaJahanzaib\\UsersManagement\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "AmnaJahanzaib\\UsersManagement\\Tests\\": "tests"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Amna Jahanzaib",
-                    "email": "amnajahanzaib22@gmail.com",
-                    "homepage": "http://github.com/amna-jahanzaib"
-                }
-            ],
-            "description": "It provides a service for retrieving and creating users via a remote API",
-            "homepage": "https://github.com/amna-jahanzaib/users-management",
-            "keywords": [
-                "Laravel",
-                "UsersManagement"
             ],
             "transport-options": {
                 "symlink": true,
@@ -9103,8 +9045,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "amna-jahanzaib/remote-user-service": 20,
-        "amna-jahanzaib/users-management": 20
+        "amna-jahanzaib/remote-user-service": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
