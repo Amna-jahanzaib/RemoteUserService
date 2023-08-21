@@ -18,8 +18,6 @@ use Inertia\Inertia;
 
 Route::get('/', function () {
 
-    $data = [];
-
-    return Inertia::render('Dashboard', ['data' => $data]);
+   return view('app');
     
 });
